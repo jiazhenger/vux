@@ -1,0 +1,25 @@
+﻿/* ================================ *** 初始化样式 *** ================================ */
+a{.transition(color .3s)}
+// ================================================================ pc 
+body{
+	font:@font-size/@font-line-height @font-family;
+	.c(@font-color);
+	.mw(@min-width);
+	.bc(@body-bgcolor);
+}
+// ================================================================ tel
+/*
+html:extend(.wh){.bc(#515363);.tc;} 
+body:extend(.wh){.yh;.tl;.mau;.user-select;
+    font:@font-size/@font-line-height @font-family;
+    //.ff(@font-family);
+    .c(@font-color);
+    .mw(@min-width);
+    .max_w(@max-width);
+    .bc(@body-bgcolor);
+    
+    .box-shadow(0 0 160px 0 #5c99e7);
+    display:none \9;
+}
+.app-root:extend(.fv,.oys,.wh){}
+*/
